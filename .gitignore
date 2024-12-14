@@ -13,3 +13,16 @@ docker-compose.override.yml
 
 # IntelliJ IDEA-specific ignores
 .idea/
+*.iml
+*.iws
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+application-local.properties
+
+# Maven
+target/
+build/
