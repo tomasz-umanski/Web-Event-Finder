@@ -1,0 +1,15 @@
+# Ignore environment variable files
+.env
+
+# Ignore Docker Compose override files (if any)
+docker-compose.override.yml
+
+# Ignore any backup or temporary files
+*.bak
+*.tmp
+
+# Ignore log files
+*.log
+
+# IntelliJ IDEA-specific ignores
+.idea/
