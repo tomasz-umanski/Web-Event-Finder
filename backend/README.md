@@ -38,7 +38,11 @@ mvn clean install
 ```
 This command will clean up any previous builds, resolve all necessary dependencies, and prepare the application for running.
 
-### 3. Running the Application
+### 3. Run Database
+
+Make sure you have running container for your local database. In the `database` folder there is detailed instruction of how to run the database.
+
+### 4. Running the Application
 To run the Spring Boot application, use the following Maven command:
 ```
 mvn spring-boot:run -D spring.profiles.active=local
